@@ -349,12 +349,16 @@ export default function Home({ posts }) {
               </p>
             </div>
           ))}
+       
+        
           <AddCircleIcon
-            className=" text-richBlack fixed bottom-20 right-0  text-6xl sm:bottom-20 sm:right-5	transition-all hover:scale-90"
+            fontSize="large"
+            className="  text-richBlack fixed bottom-10 right-0   sm:bottom-14 sm:right-5	transition-all hover:scale-90"
             onClick={handleOpen}
           />
           <HelpIcon
-            className=" text-richBlack fixed bottom-2 right-0  text-6xl sm:bottom-6 sm:right-5	transition-all hover:scale-90"
+           fontSize="large"
+            className=" text-richBlack fixed bottom-2 right-0  sm:bottom-6 sm:right-5	transition-all hover:scale-90"
             onClick={handleInfoOpen}
           />
         </div>
