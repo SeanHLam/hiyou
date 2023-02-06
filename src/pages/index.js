@@ -139,11 +139,12 @@ export default function Home({ posts }) {
             >
               Haikus are typically written about nature. A kigo is a seasonal
               word that is used in a haiku. For example, if you were writing a
-              haiku about the winter, you could use "snow" as a kigo. You can
-              find a list of kigos in a Saijiki like this{" "}
+              haiku about the winter, you could use snow as a kigo. You can
+              find a list of kigos in a Saijiki like this
               <a
                 target="_blank"
                 className="underline"
+                rel="noreferrer"
                 href="https://wkdkigodatabase03.blogspot.com/2010/03/saijiki-list.html"
               >
                 one
@@ -161,7 +162,7 @@ export default function Home({ posts }) {
               className="font-seriff pb-2 text-richBlack"
             >
               A kireji is a cutting word that divides the haiku and breaks up
-              the poem's flow. This gets the reader to pause and think in
+              the poems flow. This gets the reader to pause and think in
               between the lines.
             </p>
 
@@ -200,6 +201,7 @@ export default function Home({ posts }) {
                 <a
                 target="_blank"
                 className="underline"
+                rel="noreferrer"
                 href="https://wkdkigodatabase03.blogspot.com/2010/03/saijiki-list.html"
               >
                 A short info doc about haikus
@@ -208,6 +210,7 @@ export default function Home({ posts }) {
               <a
                 target="_blank"
                 className="underline"
+                rel="noreferrer"
                 href="https://wkdkigodatabase03.blogspot.com/2010/03/saijiki-list.html"
               >
                The Saijiki list referenced in the text
@@ -332,13 +335,13 @@ export default function Home({ posts }) {
                 {post.title}
               </h2>
               <p className="font-seriff text-richBlack text-xl">
-                "{post.lineOne}
+                {post.lineOne}
               </p>
               <p className="font-seriff text-richBlack text-xl">
                 {post.lineTwo}
               </p>
               <p className="font-seriff text-richBlack text-xl">
-                {post.lineThree}"
+                {post.lineThree}
               </p>
 
               <p className="font-seriff text-richBlack text-xl text-right">
